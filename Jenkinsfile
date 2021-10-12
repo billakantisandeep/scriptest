@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build2') {
+      steps {
+        sh 'echo \'Another step\''
+      }
+    }
+
   }
 }
